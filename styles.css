@@ -1,0 +1,78 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.footer {
+    background: #222;
+    height: 200px;
+}
+
+.banner {
+    background: url(festival.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    color: #fff;
+}
+
+#banner-text {
+    padding: 140px 0;
+}
+
+.jumbotron {
+    border-radius: 0px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.right {
+  float: right;
+}
+
+.left{
+    float: left;
+}
+
+#band-inputs {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: #ff0099;
+    border-color: #ff0099;
+}
+
+.btn-danger:hover, .btn-danger:active {
+    background-color: #c20175;
+}
+
+.btn-primary {
+background-color: #00adff;
+border-color: #00adff;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #0088c7;
+}
+
+.card {
+    border-radius: 0px !important;
+}
+
+.card-header {
+    color: #fff;
+    background: #222;
+}
+
+#main {
+    margin-bottom: 60px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #acacac;
+    font-style: italic;
+    opacity: 1; /* Firefox */
+}

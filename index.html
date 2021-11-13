@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>CRUD Application</title>
+    <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.css'>
+    <link rel='stylesheet' href='styles.css'>
+    <script src="https://kit.fontawesome.com/56e554d9bc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    
+<body>
+        <div class="container-fluid">
+            <div class="jumbotron banner">
+                <div class="container">
+                    <div id="banner-text">
+                <h1>Music Festival CRUD App</h1>
+                <p>Cliche polaroid cronut hoodie tacos hot chicken organic hammock whatever...</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    <div class="container" id="main">
+    <div id='new-festival' class='jumbotron'>
+        <div class="row">
+        <div class="col-sm-3">
+            <h2>New Festival</h2>
+        </div>
+        <div class="col-sm-7">
+            <input type='text' id='new-festival-name' class='form-control' placeholder="New Festival">
+        </div>
+        <div class="col-sm-2">
+            <button id='create-new-festival' class='btn btn-primary form-control'><i class="fas fa-plus-circle"></i></button>
+        </div>
+        </div>
+    </div>
+    <div id='app'>
+
+    </div>
+</div>
+
+    <div class="container-fluid footer">
+        
+    </div>
+
+
+    <script src='node_modules/jquery/dist/jquery.js'></script>
+    <script src='node_modules/bootstrap/dist/js/bootstrap.bundle.js'></script>
+    <script src='script.js'></script>
+    <script src='initial-data.js'></script>
+</body>
+</html>
